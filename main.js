@@ -7,3 +7,13 @@ let puntaje = 0;
 let estaActivo = true;
 
 console.log(nombre, edad, vida, puntaje, estaActivo);
+
+// Ejecicio 2
+
+let puntosBase = 100;
+let bonus = 50;
+let penalizacion = 20;
+
+let puntajeTotal = puntosBase + (bonus - penalizacion);
+
+console.log("Puntaje total:", puntajeTotal);
